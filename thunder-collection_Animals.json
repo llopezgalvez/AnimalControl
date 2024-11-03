@@ -1,0 +1,109 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Animals",
+    "collectionId": "4fdbd98a-bc48-42c6-9388-560529816fc1",
+    "dateExported": "2024-11-01T22:16:17.252Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "bcdf7d4e-3604-4c5c-981f-87be18339f6f",
+            "colId": "4fdbd98a-bc48-42c6-9388-560529816fc1",
+            "containerId": "",
+            "name": "Get Animal",
+            "url": "localhost:2880/animal/getAnimal/67252ed3b97a611c7b43bbdd",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-11-01T18:53:10.744Z",
+            "modified": "2024-11-01T19:41:38.305Z",
+            "headers": []
+        },
+        {
+            "_id": "56082355-919f-40f5-8806-545127095b0f",
+            "colId": "4fdbd98a-bc48-42c6-9388-560529816fc1",
+            "containerId": "",
+            "name": "Delete Animal",
+            "url": "",
+            "method": "DELETE",
+            "sortNum": 20000,
+            "created": "2024-11-01T18:53:20.880Z",
+            "modified": "2024-11-01T18:53:54.023Z",
+            "headers": []
+        },
+        {
+            "_id": "e746d3b7-595e-4157-904e-c9020be12d2d",
+            "colId": "4fdbd98a-bc48-42c6-9388-560529816fc1",
+            "containerId": "",
+            "name": "Update Animal",
+            "url": "",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-11-01T18:53:31.056Z",
+            "modified": "2024-11-01T18:53:53.136Z",
+            "headers": []
+        },
+        {
+            "_id": "81507291-83dd-4617-ace5-15aeb52dd582",
+            "colId": "4fdbd98a-bc48-42c6-9388-560529816fc1",
+            "containerId": "",
+            "name": "Get Animals",
+            "url": "localhost:2880/animal/getAnimals",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-11-01T18:53:38.351Z",
+            "modified": "2024-11-01T19:23:47.634Z",
+            "headers": []
+        },
+        {
+            "_id": "9e0631d8-d263-4092-aece-22b450e2ef86",
+            "colId": "4fdbd98a-bc48-42c6-9388-560529816fc1",
+            "containerId": "",
+            "name": "Add Animal",
+            "url": "localhost:2880/animal/addAnimal",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-11-01T19:38:09.239Z",
+            "modified": "2024-11-01T19:41:07.955Z",
+            "headers": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Luna"
+                    },
+                    {
+                        "name": "race",
+                        "value": "Cocker"
+                    },
+                    {
+                        "name": "size",
+                        "value": "Big"
+                    },
+                    {
+                        "name": "sex",
+                        "value": "Female"
+                    },
+                    {
+                        "name": "age",
+                        "value": "5"
+                    },
+                    {
+                        "name": "color",
+                        "value": "blanck and white"
+                    },
+                    {
+                        "name": "animalType",
+                        "value": "Dog"
+                    },
+                    {
+                        "name": "keeper",
+                        "value": "65c5c44e53e476d49255a226"
+                    }
+                ]
+            }
+        }
+    ],
+    "ref": "irzAJWYlsgVoPHi377BtuOVslLYZ9b21_u0cibn8rmSEbNpM3AZwc_WC0g4c1cOuttZddn23FG-TcQmGu3iOPQ"
+}
